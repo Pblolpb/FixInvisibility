@@ -16,9 +16,6 @@ public class FixInvisibility extends JavaPlugin implements Listener {
 		pm.registerEvents(this, this);
 	}
 	
-	/*
-	 * Added this amazing block!
-	 */
 	@EventHandler
 	public void onEntityTarge(EntityTargetEvent event){
 		if(event.getTarget() instanceof Player){
